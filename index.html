@@ -5,17 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Foodhub</title>
+  <title>Food hub</title>
 
-  <!--
-    - custom css link 
-  -->
+
   <link rel="stylesheet" href="./assets/css/foodhub.css">
   <link rel="stylesheet" href="./assets/css/media_query.css">
-
-  <!--
-    - google font link
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -25,16 +19,7 @@
 </head>
 
 <body>
-
-  <!--
-    - main container
-  -->
-
   <div class="container">
-
-    <!--
-      - #HEADER
-    -->
 
     <header>
 
@@ -71,12 +56,10 @@
           </ul>
 
           <div class="navbar-btn-group">
-
-            <button class="shopping-cart-btn">
+            <a href="#menu">            <button class="shopping-cart-btn">
               <img src="./assets/images/cart.svg" alt="shopping cart icon" width="18">
-              <span class="count">5</span>
             </button>
-
+            </a>
             <button class="menu-toggle-btn">
               <span class="line one"></span>
               <span class="line two"></span>
@@ -89,102 +72,11 @@
 
       </nav>
 
-      <div class="cart-box">
-
-        <ul class="cart-box-ul">
-
-          <h4 class="cart-h4">Your order.</h4>
-
-          <li>
-            <a href="#" class="cart-item">
-              <div class="img-box">
-                <img src="./assets/images/menu1.jpg" alt="product image" class="product-img" width="50" height="50"
-                  loading="lazy">
-              </div>
-
-              <h5 class="product-name">Saumon gravlax</h5>
-              <p class="product-price">
-                <span class="small">$</span>9
-              </p>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="cart-item">
-              <div class="img-box">
-                <img src="./assets/images/menu2.jpg" alt="product image" class="product-img" width="50" height="50"
-                  loading="lazy">
-              </div>
-
-              <h5 class="product-name">Chevrefried with honey</h5>
-              <p class="product-price">
-                <span class="small">$</span>14
-              </p>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="cart-item">
-              <div class="img-box">
-                <img src="./assets/images/menu3.jpg" alt="product image" class="product-img" width="50" height="50"
-                  loading="lazy">
-              </div>
-
-              <h5 class="product-name">Crispy fish</h5>
-              <p class="product-price">
-                <span class="small">$</span>4
-              </p>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="cart-item">
-              <div class="img-box">
-                <img src="./assets/images/menu4.jpg" alt="product image" class="product-img" width="50" height="50"
-                  loading="lazy">
-              </div>
-
-              <h5 class="product-name">Stracciatella</h5>
-              <p class="product-price">
-                <span class="small">$</span>11
-              </p>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="cart-item">
-              <div class="img-box">
-                <img src="./assets/images/menu5.jpg" alt="product image" class="product-img" width="50" height="50"
-                  loading="lazy">
-              </div>
-
-              <h5 class="product-name">Sea bream carpaccio</h5>
-              <p class="product-price">
-                <span class="small">$</span>19
-              </p>
-            </a>
-          </li>
-
-        </ul>
-
-        <div class="cart-btn-group">
-          <button class="btn btn-secondary">View order</button>
-          <button class="btn btn-primary">Checkout</button>
-        </div>
-
-      </div>
 
     </header>
 
-
-
-
-
     <main>
 
-      <!--
-        - #HOME SECTION
-      -->
 
       <section class="home" id="home">
 
@@ -199,16 +91,19 @@
           </p>
 
           <div class="btn-group">
+            <a href="#menu">
+              <button class="btn btn-primary btn-icon">
+                <img src="./assets/images/menu.svg" alt="menu icon">
+                Our menu
+              </button>
+            </a>
+            <a href="#about">
+              <button class="btn btn-secondary btn-icon">
+                <img src="./assets/images/arrow.svg" alt="menu icon">
+                About us
+              </button>
+            </a>
 
-            <button class="btn btn-primary btn-icon">
-              <img src="./assets/images/menu.svg" alt="menu icon">
-              Our menu
-            </button>
-
-            <button class="btn btn-secondary btn-icon">
-              <img src="./assets/images/arrow.svg" alt="menu icon">
-              About us
-            </button>
 
           </div>
 
@@ -216,31 +111,13 @@
 
         <div class="home-right">
 
-          <img src="./assets/images/food1.png" alt="food image" class="food-img food-1" width="200" loading="lazy">
-          <img src="./assets/images/food2.png" alt="food image" class="food-img food-2" width="200" loading="lazy">
-          <img src="./assets/images/food3.png" alt="food image" class="food-img food-3" width="200" loading="lazy">
-
-          <img src="./assets/images/dialog-1.svg" alt="dialog" class="dialog dialog-1" width="230">
-          <img src="./assets/images/dialog-2.svg" alt="dialog" class="dialog dialog-2" width="230">
-
-          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-1" width="25">
-          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-2" width="15">
-          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-3" width="30">
-          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-4" width="60">
-          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-5" width="40">
+          <img src="./assets/images/food3.png" alt="food image" class="food-img food-3">
+          <img src="./assets/images/food1.png" alt="food image" class="food-img food-1">
+          <img src="./assets/images/food2.png" alt="food image" class="food-img food-2">
 
         </div>
 
       </section>
-
-
-
-
-
-      <!--
-        - #ABOUT SECTION
-      -->
-
       <section class="about" id="about">
 
         <div class="about-left">
@@ -250,16 +127,9 @@
           </div>
 
           <div class="abs-content-box">
-            <div class="dotted-border">
-              <p class="number-lg">17</p>
-              <p class="text-md">Years <br> Experiense</p>
-            </div>
+
           </div>
 
-          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-6" width="20">
-          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-7" width="30">
-          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-8" width="35">
-          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-9" width="80">
 
         </div>
 
@@ -269,34 +139,26 @@
             you expect</h2>
 
           <p class="section-text">
-            Faudantium magnam error temporibus ipsam aliquid neque quibusdam dolorum, quia ea numquam assumenda mollitia
-            dolorem
-            impedit. Voluptate at quis exercitationem officia temporibus adipisci quae totam enim dolorum, assumenda.
-            Sapiente
-            soluta nostrum reprehenderit a velit obcaecati facilis vitae magnam tenetur neque vel itaque inventore eaque
-            explicabo
-            commodi maxime! Aliquam quasi, voluptates odio.
+          <p>
+            Welcome to our culinary haven, where every dish is crafted with passion and precision. Our chefs bring the
+            finest ingredients to your table, creating an unforgettable dining experience. From the freshest seafood to
+            mouth-watering steaks, our menu is a celebration of flavor and innovation. Whether you're here for a
+            romantic dinner or a family gathering, we promise an atmosphere of warmth and hospitality. Join us and savor
+            the taste of excellence, where every meal is a masterpiece.
+          </p>
+
           </p>
 
           <p class="section-text">
-            Consectetur adipisicing elit. Cupiditate nesciunt amet facilis numquam, nam adipisci qui voluptate voluptas
-            enim
-            obcaecati veritatis animi nulla, mollitia commodi quaerat ex, autem ea laborum.
+            Discover exceptional dining where every detail is designed to delight your senses. Our menu features a
+            curated selection of dishes made from the freshest ingredients, crafted with care to ensure a memorable
+            experience. Enjoy the perfect blend of taste and atmosphere as we serve you with a touch of elegance and
+            dedication. Whether you're celebrating a special occasion or simply enjoying a meal out, we're committed to
+            providing an experience that exceeds your expectations.
           </p>
-
-          <img src="./assets/images/signature.png" alt="signature" class="signature" width="150">
-
         </div>
 
       </section>
-
-
-
-
-
-      <!--
-        - #SERVICES SECTION
-      -->
 
       <section class="services" id="services">
 
@@ -307,7 +169,8 @@
           <h3 class="card-heading">We are located in the city center</h3>
 
           <p class="card-text">
-            Porro nemo veniam necessitatibus praesentium eligendi rem temporibus adipisci quo modi numquam.
+            "Major issues occur, and handling them is tough. Wise people face criticism but strive to manage their
+            responsibilities well."
           </p>
 
         </div>
@@ -319,7 +182,7 @@
           <h3 class="card-heading">Fresh ingredients from organic farms</h3>
 
           <p class="card-text">
-            Porro nemo veniam necessitatibus praesentium eligendi rem temporibus adipisci quo modi numquam.
+            "Consectetur adipisicing elit. Easy to desire, but lacking truth and comfort, seeking without finding"
           </p>
 
         </div>
@@ -331,7 +194,8 @@
           <h3 class="card-heading">Own fast delivery. 30 min Maximum</h3>
 
           <p class="card-text">
-            Porro nemo veniam necessitatibus praesentium eligendi rem temporibus adipisci quo modi numquam.
+            "In every instance, we focus on addressing your unique needs and preferences."
+
           </p>
 
         </div>
@@ -343,7 +207,7 @@
           <h3 class="card-heading">Professional, experienced chefs</h3>
 
           <p class="card-text">
-            Porro nemo veniam necessitatibus praesentium eligendi rem temporibus adipisci quo modi numquam.
+            "Moreover, no one is exempt from needing to choose things, as they are obtained or not at times."
           </p>
 
         </div>
@@ -355,28 +219,20 @@
           <h3 class="card-heading">The highest standards of service</h3>
 
           <p class="card-text">
-            Porro nemo veniam necessitatibus praesentium eligendi rem temporibus adipisci quo modi numquam.
+            "Moreover, no one escapes the needs of the present time, choosing things to be done in a way that never
+            changes."
           </p>
 
         </div>
 
+
       </section>
-
-
-
-
-
-      <!--
-        - #PRODUCT SECTION
-      -->
-
       <section class="product" id="menu">
 
         <h2 class="section-title">Most popular dishes</h2>
 
         <p class="section-text">
-          Consectetur numquam poro nemo veniam
-          eligendi rem adipisci quo modi.
+          "Concerning never, no one is exempt from needing to choose things, as they are obtained."
         </p>
 
         <div class="products-grid">
@@ -620,15 +476,6 @@
         </button>
 
       </section>
-
-
-
-
-
-      <!--
-        - #TESTIMONIALS SECTION
-      -->
-
       <section class="testimonials" id="testimonials">
 
         <h2 class="section-title">What our customers say?</h2>
@@ -663,7 +510,8 @@
 
             <div class="customer-info">
               <div class="customer-img-box">
-                <img src="./assets/images/testimonials1.jpg" alt="customer image" class="customer-img" width="100" loading="lazy">
+                <img src="./assets/images/testimonials1.jpg" alt="customer image" class="customer-img" width="100"
+                  loading="lazy">
               </div>
 
               <h5 class="customer-name">Emma Newman</h5>
@@ -672,9 +520,9 @@
           </div>
 
           <div class="testimonials-card">
-          
+
             <h4 class="card-title">I have lunch here every day</h4>
-          
+
             <div class="testimonials-rating">
               <ion-icon name="star"></ion-icon>
               <ion-icon name="star"></ion-icon>
@@ -682,7 +530,7 @@
               <ion-icon name="star"></ion-icon>
               <ion-icon name="star"></ion-icon>
             </div>
-          
+
             <p class="testimonials-text">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis fugiat totam nobis quas unde excepturi
               inventore possimus
@@ -691,15 +539,16 @@
               labore,
               aliquam dolor harum!
             </p>
-          
+
             <div class="customer-info">
               <div class="customer-img-box">
-                <img src="./assets/images/testimonials2.jpg" alt="customer image" class="customer-img" width="100" loading="lazy">
+                <img src="./assets/images/testimonials2.jpg" alt="customer image" class="customer-img" width="100"
+                  loading="lazy">
               </div>
-          
+
               <h5 class="customer-name">Paul Trueman</h5>
             </div>
-          
+
           </div>
 
         </div>
@@ -708,13 +557,6 @@
 
     </main>
 
-
-
-
-
-    <!--
-      - #FOOTER
-    -->
 
     <footer>
 
@@ -752,18 +594,8 @@
 
   </div>
 
-
-
-
-
-  <!--
-    - custom js link
-  -->
   <script src="./assets/js/foodhub.js"></script>
 
-  <!--
-    - ionicon link
-  -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
